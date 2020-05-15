@@ -1,0 +1,14 @@
+label#img{
+    margin-bottom: 20px;
+    background-size: cover;
+    cursor: pointer;
+    display: flex;
+
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+label #img  {
+    display: none;
+}

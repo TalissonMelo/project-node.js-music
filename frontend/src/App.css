@@ -1,0 +1,89 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root{
+  min-height: 100%;
+}
+
+body{
+  background: url('./assetes/capa.png'),
+				url('./assetes/ruido.png'),
+				linear-gradient(50deg,#ff4169,#7c26f8);
+	background-attachment: fixed;
+	font-family: Helvetica,Arial,sans-serif;
+}
+
+body, input, button{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+.container{
+  margin:80px auto 0;
+  max-width: 450px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content{
+  width: 100%;
+  border: 2px solid white;
+  margin-top: 50px;
+  padding: 20px;
+  color:white;
+}
+
+.content:hover {
+	background: rgba(0, 0, 0, 0.6);
+}
+
+.content > p {
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.content form{
+  display: flex;
+  flex-direction: column;
+}
+
+.content form label{
+  font-size: 14px;
+  color:white;
+  margin: 10px;
+  font-weight: bold;
+}
+
+.content form label span {
+  font-weight: normal;
+  color: white;
+  font-size: 12px;
+}
+
+.content form input {
+  margin-bottom: 20px;
+  border: 1px solid black;
+  border-radius: 2px;
+  height: 45px;
+  padding: 0 15px;
+  font-size: 18px;
+}
+
+.content button.btn{
+  border: 0;
+  border-radius: 2px;
+  width: 100%;
+  padding: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  border: 1px solid black;
+  color:black;
+  cursor: pointer;
+}
