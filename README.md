@@ -17,6 +17,6 @@ Para rodar o frontend tem quer ir na pasta frontend e dar o comando no pront de 
 
 #### npm start
 
-#### acessar a porta localhost:3000
+#### acessar http://localhost:3000 para visualizá-lo no navegador.
 
 ###### Email já cadastrado e com dados tales@gmail.com
